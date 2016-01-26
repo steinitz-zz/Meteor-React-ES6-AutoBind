@@ -32,7 +32,8 @@ Tinytest.add (
 			constructor (props)
 			{
 				super (props);
-				SteinitzREA.AutoBind (this);
+				this.bindTest = this.bindTest.bind ({}); 	// simulate React environment
+				SteinitzREA.AutoBind (this);				// fix the above binding
 				this.aValue = 'bind test';
 			}
 
