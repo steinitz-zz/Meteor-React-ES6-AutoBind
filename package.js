@@ -1,6 +1,6 @@
 Package.describe({
   name: 'steinitz:react-es6-autobind',
-  version: '0.1.0',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
   summary: "For all methods, binds 'this' to the React component created with class extends.",
   // URL to the Git repository containing the source code for this package.
