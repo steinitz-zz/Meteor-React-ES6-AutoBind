@@ -2,7 +2,7 @@ Package.describe({
   name: 'steinitz:react-es6-autobind',
   version: '0.1.0',
   // Brief, one-line summary of the package.
-  summary: "For all methods, binds 'this' to the React component created with class extends. Without it 'this' refers to 'Window'.",
+  summary: "For all methods, binds 'this' to the React component created with class extends.",
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/steinitz/Meteor-React-ES6-AutoBind',
   // By default, Meteor will default to using README.md for documentation.
