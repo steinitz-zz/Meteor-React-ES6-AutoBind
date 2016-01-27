@@ -8,7 +8,6 @@ Tinytest.add (
 			constructor (props)
 			{
 				super (props);
-				SteinitzREA.AutoBind (this);
 			}
 
 			customMethod ()
@@ -45,7 +44,7 @@ Tinytest.add (
 
 		var instance 			= new MyReactTestComponent({});
 		var bindTestValue		= instance.bindTest();
-		var expectedMethodValue	= 'bind test'; // customMethod, setState, forceUpdate
+		var expectedMethodValue	= 'bind test';
 		test.equal (bindTestValue, expectedMethodValue);
 	}
 );
